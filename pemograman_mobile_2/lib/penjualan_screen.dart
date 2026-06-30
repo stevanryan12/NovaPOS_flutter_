@@ -265,7 +265,7 @@ class _PenjualanScreenState extends State<PenjualanScreen> {
     
     // 1. Specific Indonesian Brand Product Mappings
     if (name.contains('pucuk') || name.contains('teh pucuk')) {
-      return 'https://coreimages.lottemart.co.id/ord/06/1051403000';
+      return 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR6qvDK4qdrtRXl75ksyZTfQErcdmdgb2r6FuSUb8cUw&s=10';
     }
     if (name.contains('aoka')) {
       return 'https://s3.belanjapasti.com/media/image/aoka-roti-panggang-coklat-pck-65g-593343.png';
@@ -299,6 +299,46 @@ class _PenjualanScreenState extends State<PenjualanScreen> {
     }
     if (name.contains('hit spray') || name.contains('obat nyamuk hit') || (name.contains('hit') && name.contains('nyamuk'))) {
       return 'https://image.astronauts.cloud/product-images/2024/4/HitAerosolOrange600mlPembasmiSerangga1_30a56f8a-08ca-42cc-b078-0aa4c0e3e4f9_900x900.png';
+    }
+
+    if (name.contains('coca-cola') || name.contains('coca cola') || name.contains('coke')) {
+      return 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5aO0ZisJR84Afd5rkYqa4t0gqnlFol4aXLsDZmwzHYg&s=10';
+    }
+    if (name.contains('pocari')) {
+      return 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeJPNE-fYVm0WS7Nu1kK_D3gAyjAoXdhHiEycZl2BR1w&s=10';
+    }
+    if (name.contains('giv')) {
+      return 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLdBqcm9adsQz9taeDMjOCnGnArWejNpV0ucECaLQEmA&s=10';
+    }
+    if (name.contains('lux')) {
+      return 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNhy6WxNh5BRIC-IHwoKx0QVlYa60UbC5s_VP-73-POg&s=10';
+    }
+    if (name.contains('dettol')) {
+      return 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtlnJLqrpjkdkJAa2qdIg3vyvUragXUzDonhpKdpUerg&s=10';
+    }
+    if (name.contains('qtela')) {
+      return 'https://yoline.co.id/media/products/ProductQtelasingkongrasabbq185gr.jpeg';
+    }
+    if (name.contains('chitato')) {
+      return 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSauSt7ivoJ_WHD0vvEztr-pnuW_j2UR0XxVz46xC8JLw&s=10';
+    }
+    if (name.contains('kusuka')) {
+      return 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvw9Q4hsmxzwJ1GcwjDrcLxAIDcf1P99zaXk5lHq6FQA&s=10';
+    }
+    if (name.contains('silverqueen') || name.contains('silver queen')) {
+      return 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8EZCGxgPdhliV4VMIYooO5DeC1oGLiWiIXFjOpGUKHA&s=10';
+    }
+    if (name.contains('cadbury')) {
+      return 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQtxLCbFtDG_gECQ5osuwoeX5ZER91Kbtthr8uC4qWNQ&s=10';
+    }
+    if (name.contains('beng-beng') || name.contains('beng beng')) {
+      return 'https://filebroker-cdn.lazada.co.id/kf/Sc65c7e78404b43d3aca770ae4610591bw.jpg';
+    }
+    if (name.contains('kitkat') || name.contains('kit kat')) {
+      return 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxx1wuxAVVjYFDnlC5v4byOk6cZZRbksm7rpXRPachVA&s=10';
+    }
+    if (name.contains('chocolatos')) {
+      return 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM-DNHd3BC0-nuOOY2TA1gR_WcYYSgkDfktdFDCEg1Nw&s=10';
     }
 
     // 2. Indomie & Mie instan (goreng vs kuah/soto/ayam bawang)

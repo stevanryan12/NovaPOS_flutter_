@@ -279,7 +279,6 @@ class _ListSupplierScreenState extends State<ListSupplierScreen> {
       children: [
         // Premium Dark Slate background header
         Container(
-          height: 195,
           width: double.infinity,
           padding: EdgeInsets.only(
             top: MediaQuery.of(context).padding.top + 16,
