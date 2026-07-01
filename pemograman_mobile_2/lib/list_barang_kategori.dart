@@ -1029,7 +1029,10 @@ class _ListBarangKategoriScreenState extends State<ListBarangKategoriScreen> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Flexible(
-                        child: Row(
+                        child: Wrap(
+                          spacing: 6,
+                          runSpacing: 4,
+                          crossAxisAlignment: WrapCrossAlignment.center,
                           children: [
                             Text(
                               'Qty: $stok',
@@ -1039,8 +1042,7 @@ class _ListBarangKategoriScreenState extends State<ListBarangKategoriScreen> {
                                 fontWeight: FontWeight.w500,
                               ),
                             ),
-                            if (isLowStock) ...[
-                              const SizedBox(width: 6),
+                            if (isLowStock)
                               Container(
                                 padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
                                 decoration: BoxDecoration(
@@ -1056,7 +1058,6 @@ class _ListBarangKategoriScreenState extends State<ListBarangKategoriScreen> {
                                   ),
                                 ),
                               ),
-                            ],
                           ],
                         ),
                       ),

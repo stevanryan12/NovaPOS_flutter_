@@ -8,7 +8,7 @@ class AppConfig {
     }
     if (Platform.isAndroid) {
       // IP lokal laptop Anda agar HP Vivo Anda bisa terhubung
-      return 'http://10.172.221.241:3000';
+      return 'http://10.21.178.241:3000';
     }
     // Desktop (Windows/macOS/Linux)
     return 'http://localhost:3000';
